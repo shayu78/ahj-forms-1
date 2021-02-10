@@ -9,7 +9,7 @@
     "start": "webpack-dev-server --config webpack.dev.js",
     "test": "jest --testPathPattern=./src/ --passWithNoTests",
     "coverage": "jest --testPathPattern=./src/ --coverage --passWithNoTests",
-    "e2e": "jest --testPathPattern=./e2e/ --runInBand --passWithNoTests"
+    "e2e": "jest --testPathPattern=./e2e/ --runInBand"
   },
   "repository": {
     "type": "git",
