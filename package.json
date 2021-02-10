@@ -7,7 +7,7 @@
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint .",
     "start": "webpack-dev-server --config webpack.dev.js",
-    "test": "jest --testPathPattern=./src/ --passWithNoTests",
+    "test": "jest --passWithNoTests",
     "coverage": "jest --testPathPattern=./src/ --coverage --passWithNoTests",
     "e2e": "jest --testPathPattern=./e2e/ --runInBand"
   },
