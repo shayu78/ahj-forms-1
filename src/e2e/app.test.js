@@ -1,13 +1,13 @@
-import puppeteer from 'puppeteer';
+import puppetteer from 'puppeteer';
 
 jest.setTimeout(30000); // default puppeteer timeout
 describe('Toggle button tooltip', () => {
   let browser = null;
   let page = null;
-  const baseUrl = 'http://localhost:8080';
+  const baseUrl = 'http://localhost:9000';
 
   beforeAll(async () => {
-    browser = await puppeteer.launch({
+    browser = await puppetteer.launch({
       // headless: false, // show gui
       // slowMo: 100,
       // devtools: true, // show devTools
